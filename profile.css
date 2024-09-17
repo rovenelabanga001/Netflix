@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: rgb(29, 27, 27);
+    height: 100vh;
+}
+.container h2{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-details img{
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+}
