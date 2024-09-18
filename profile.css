@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     display: flex;
@@ -21,7 +22,6 @@
     display: flex;
     gap: 20px;
     margin-bottom: 80px;
-    transition: 0.3s;
 }
 .profile-details{
     cursor: pointer;
